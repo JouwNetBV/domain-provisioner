@@ -52,7 +52,7 @@ class Provider extends DomainNames implements ProviderInterface
     public static function aboutProvider(): AboutData
     {
         return AboutData::create()
-            ->setName('TransIP')
+            ->setName('transip')
             ->setDescription('Domain provisioner for the provider TransIP');
     }
 

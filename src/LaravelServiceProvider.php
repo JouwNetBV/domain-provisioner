@@ -58,6 +58,7 @@ class LaravelServiceProvider extends ProvisionServiceProvider
         $this->bindProvider('domain-names', 'ug-registry', UGRegistry::class);
         $this->bindProvider('domain-names', 'domain-name-api', DomainNameApi::class);
         $this->bindProvider('domain-names', 'namecheap', Namecheap::class);
+        $this->bindProvider('domain-names', 'transip', Transip::class);
         $this->bindProvider('domain-names', 'centralnic', CentralNic::class);
         $this->bindProvider('domain-names', 'godaddy', GoDaddy::class);
         $this->bindProvider('domain-names', 'centralnic-reseller', CentralNicReseller::class);
