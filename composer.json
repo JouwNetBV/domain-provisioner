@@ -1,5 +1,5 @@
 {
-    "name": "upmind/provision-provider-domain-names",
+    "name": "provision-provider-domain-names",
     "description": "This provision category contains common functions used in domain name provisioning flows with various registries and registrar/reseller platforms.",
     "type": "library",
     "license": "GPL-3.0-only",
@@ -20,9 +20,12 @@
     "autoload": {
         "psr-4": {
             "Upmind\\ProvisionProviders\\DomainNames\\": "src/"
+
+            
         }
     },
     "require": {
+        "ext-json": "*",
         "upmind/provision-provider-base": "^3.7",
         "metaregistrar/php-epp-client": "^1.0",
         "hexonet/php-sdk": "^5.0",
